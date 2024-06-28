@@ -3,10 +3,11 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_pinecone import PineconeVectorStore
 from langchain_google_genai import GoogleGenerativeAI
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
-from const import INDEX_NAME
 from dotenv import load_dotenv
 
 load_dotenv()
+
+INDEX_NAME = "medical-documents"
 
 embedding = GoogleGenerativeAIEmbeddings(model="models/text-embedding-004")
 
