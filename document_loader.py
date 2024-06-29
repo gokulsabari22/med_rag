@@ -27,8 +27,4 @@ docs = text_splitter.split_documents(document)
 vectorstore = PineconeVectorStore(index_name=INDEX_NAME, embedding=embedding)
 
 question = "What causes Rhuematoid Arthesis"
-result = vectorstore.similarity_search(query=question, k=2)
-for res in result:
-    print(res.page_content)
-    print("\n")
-    print("\n")
+retriever = vectorstore.similarity_search(query=question, k=1)

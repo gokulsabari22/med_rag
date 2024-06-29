@@ -1,1 +1,6 @@
 .env
+
+#ignore __pycache__/ direvtories
+__pycache__/
+
+__init__.py
