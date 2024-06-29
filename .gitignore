@@ -1,6 +1,7 @@
 .env
 
-#ignore __pycache__/ direvtories
+# ignore __pycache__/ direvtories
 __pycache__/
 
+# ignore __init__ files 
 __init__.py
