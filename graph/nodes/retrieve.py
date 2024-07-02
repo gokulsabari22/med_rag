@@ -6,7 +6,7 @@ from typing import Dict, Any
 def retrieve(state: GraphState) -> Dict[str, Any]:
     question = state["question"]
     documents = vectorstore.similarity_search(question, k=1)
-    return {"Question": question, "Documents": documents}
+    return {"question": question, "documents": documents}
 
 if __name__ == "__main__":
     res = retrieve(state={"question": "What causes the symptoms of Rhuematoid Arthesis"})
