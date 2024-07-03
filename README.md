@@ -26,7 +26,7 @@ The workflow of the system is depicted in the graph below:
 3) Search Tool: Tavily AI
 4) Vector Database: Pinecone
 
-# Question Asked:
+# Question Asked
 What causes rheumatoid arthritis?
 
 # Generated Response
