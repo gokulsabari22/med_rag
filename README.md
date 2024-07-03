@@ -26,6 +26,15 @@ The workflow of the system is depicted in the graph below:
 3) Search Tool: Tavily AI
 4) Vector Database: Pinecone
 
+# Question Asked:
+What causes rheumatoid arthritis?
+
+# Generated Response
+Rheumatoid arthritis (RA) is caused by a combination of genetic and environmental factors. Genetic factors include the Major Histocompatibility Complex (MHC) Class II shared epitope, while environmental factors include obesity, smoking, nulliparity, low socioeconomic status, viral and bacterial infections, and possibly the microbiome.
+
+![image](https://github.com/gokulsabari22/med_rag/assets/57941940/2d899274-5b56-4265-b745-f189d0c00e7a)
+
+
 # Graph
 ![graph](https://github.com/gokulsabari22/med_rag/assets/57941940/9fe2ea40-7a7d-464e-8590-a7436647037f)
 
