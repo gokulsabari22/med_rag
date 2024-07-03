@@ -13,8 +13,11 @@ The workflow of the system is depicted in the graph below:
 3) Web Search (Conditional): If the retrieved documents are not sufficient or relevant, a web search is initiated to find more information.
 4) Generate: Based on the retrieved and/or web-searched documents, a response is generated.
 5) Grade Generation: The generated response is evaluated to determine if it is grounded in the provided documents and addresses the question.
+   
     a) If the response is useful, the process ends.
+   
     b) If the response is not useful, another web search is initiated.
+   
     c) If the response is not supported by the documents, another response is generated.
 
 # Models and Tools Used
