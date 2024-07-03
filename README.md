@@ -26,3 +26,8 @@ The workflow of the system is depicted in the graph below:
 3) Search Tool: Tavily AI
 4) Vector Database: Pinecone
 
+# Graph
+![graph](https://github.com/gokulsabari22/med_rag/assets/57941940/9fe2ea40-7a7d-464e-8590-a7436647037f)
+
+
+
