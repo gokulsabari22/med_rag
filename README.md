@@ -12,13 +12,14 @@ The workflow of the system is depicted in the graph below:
 2) Grade Document: Retrieved documents are then graded to assess their relevance.
 3) Web Search (Conditional): If the retrieved documents are not sufficient or relevant, a web search is initiated to find more information.
 4) Generate: Based on the retrieved and/or web-searched documents, a response is generated.
-5) Grade Generation: The generated response is evaluated to determine if it is grounded in the provided documents and addresses the question.__
-    a) If the response is useful, the process ends.__
-    b) If the response is not useful, another web search is initiated.__
-    c) If the response is not supported by the documents, another response is generated.__
+5) Grade Generation: The generated response is evaluated to determine if it is grounded in the provided documents and addresses the question.
+    a) If the response is useful, the process ends.
+    b) If the response is not useful, another web search is initiated.
+    c) If the response is not supported by the documents, another response is generated.
 
 # Models and Tools Used
-LLM Model: llama3-8b-8192 (from Groq)__
-Embedding Model: text-embedding-004 (Google)__
-Search Tool: Tavily AI__
-Vector Database: Pinecone__
+1) LLM Model: llama3-8b-8192 (from Groq)
+2) Embedding Model: text-embedding-004 (Google)
+3) Search Tool: Tavily AI
+4) Vector Database: Pinecone
+
