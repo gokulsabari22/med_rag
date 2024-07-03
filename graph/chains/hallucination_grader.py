@@ -10,7 +10,7 @@ llm = ChatGroq(model="llama3-8b-8192", temperature=0)
 
 class GradeHallucination(BaseModel):
     binary_score: bool = Field(
-        description="Anser is grounded in Facts. 'yes' or 'no'"
+        description="Answer is grounded in Facts. 'yes' or 'no'"
     )
 
 structured_llm_grader = llm.with_structured_output(GradeHallucination)
