@@ -39,7 +39,8 @@ Rheumatoid arthritis (RA) is caused by a combination of genetic and environmenta
 ![graph](https://github.com/gokulsabari22/med_rag/assets/57941940/9fe2ea40-7a7d-464e-8590-a7436647037f)
 
 # Graph (From documentation)
-![image](https://github.com/gokulsabari22/self_rag/assets/57941940/75bf0ef3-1b60-4cdb-8ccc-10031cef5cdf)
+![image](https://github.com/gokulsabari22/self_rag/assets/57941940/d4b0c042-3327-46f3-8f25-0323dc8d4295)
+
 
 
 
